@@ -109,7 +109,7 @@ const Career = () => {
               dark
             ></InputText>
             <div className="flex ml-auto px-2 mt-5">
-              <Button label="Sumbit" submit></Button>
+              <Button label="Submit" submit></Button>
             </div>
           </form>
         </div>

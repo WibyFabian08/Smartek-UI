@@ -45,7 +45,7 @@ const Discussion = () => {
               <InputText placeholder="Project" name="project"></InputText>
               <InputText placeholder="Message" textArea></InputText>
               <div className="flex ml-auto mt-5 px-2">
-                <Button label="Sumbit" submit></Button>
+                <Button label="Submit" submit></Button>
               </div>
             </form>
           </div>

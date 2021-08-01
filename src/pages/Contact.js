@@ -53,7 +53,7 @@ const Contact = () => {
                 <InputText placeholder="Project" name="project"></InputText>
                 <InputText placeholder="Message" textArea></InputText>
               <div className="flex px-2 mt-5">
-                <Button label="Sumbit" submit></Button>
+                <Button label="Submit" submit></Button>
               </div>
             </form>
           </div>
