@@ -19,7 +19,7 @@ const Tools = () => {
             return (
               <div
                 key={index + tool.id}
-                className="mx-4 md:mx-6 mb-7 p-4 flex justify-center bg-white rounded-full"
+                className="mx-4 md:mx-6 mb-7 p-4 flex justify-center bg-white rounded-full overflow-hidden"
               >
                 <img src={tool?.image} width={50} alt={tool.id} />
               </div>

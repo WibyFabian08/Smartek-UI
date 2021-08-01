@@ -15,7 +15,7 @@ const ProductApp = ({ genap, data }) => {
           </div>
         </div>
         <div className="w-full md:w-1/2 flex justify-center items-center">
-          <img src={data.image} className="object-cover h-3/4" alt="travo" />
+          <img src={data.image} className="object-cover w-full h-3/4" alt="travo" />
         </div>
       </div>
     );
