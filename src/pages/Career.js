@@ -9,6 +9,7 @@ import Footer from "../parts/Footer";
 
 const Career = () => {
   useEffect(() => {
+    document.title ='Career'
     window.scrollTo({
       top: 0,
       behavior: "smooth",

@@ -10,6 +10,7 @@ import Download from "../parts/about/Download";
 
 const About = () => {
   useEffect(() => {
+    document.title ='About Us'
     window.scrollTo({
       top: 0,
       behavior: "smooth",

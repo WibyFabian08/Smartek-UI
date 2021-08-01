@@ -6,6 +6,7 @@ import HeroOutsourcing from "../parts/outsourcing/HeroOutsourcing";
 
 const Outsourcing = () => {
   useEffect(() => {
+    document.title ='Outsourcing'
     window.scrollTo({
       top: 0,
       behavior: "smooth",

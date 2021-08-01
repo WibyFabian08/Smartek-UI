@@ -12,6 +12,7 @@ import map from "../assets/images/map.png";
 
 const Contact = () => {
   useEffect(() => {
+    document.title ='Contact Us'
     window.scrollTo({
       top: 0,
       behavior: "smooth",

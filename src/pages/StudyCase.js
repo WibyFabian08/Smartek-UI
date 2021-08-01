@@ -8,6 +8,7 @@ import cases from "../json/case";
 
 const StudyCase = () => {
   useEffect(() => {
+    document.title ='Study-Case'
     window.scrollTo({
       top: 0,
       behavior: "smooth",
