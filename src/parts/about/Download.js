@@ -45,7 +45,7 @@ const Download = () => {
                   name="company"
                 ></InputText>
               </div>
-              <div className="flex ml-auto mt-5">
+              <div className="flex ml-auto mt-5 px-2">
                 <Button label="Download" download></Button>
               </div>
             </form>

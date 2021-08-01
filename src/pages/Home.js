@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import BestProject from "../parts/home/BestProject";
 import Client from "../parts/home/Client";
@@ -12,6 +12,14 @@ import Services from "../parts/home/Services";
 import Tools from "../parts/home/Tools";
 
 const Home = () => {
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, [])
+
   return (
     <section className="overflow-hidden">
       <Hero></Hero>

@@ -38,9 +38,9 @@ const Footer = () => {
             </h1>
             <div className="flex flex-col">
               <FooterLink path="/" label="Home"></FooterLink>
-              <FooterLink path="/" label="About Us"></FooterLink>
-              <FooterLink path="/" label="Case Study"></FooterLink>
-              <FooterLink path="/" label="Contact"></FooterLink>
+              <FooterLink path="/about" label="About Us"></FooterLink>
+              <FooterLink path="/study-case" label="Case Study"></FooterLink>
+              <FooterLink path="/contact" label="Contact"></FooterLink>
             </div>
           </div>
           <div className="w-full md:w-1/5 mb-10 md:mb-0">

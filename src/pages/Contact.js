@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "../elements/Button";
 import ContentTitle from "../elements/ContentTitle";
 import InputText from "../elements/InputText";
@@ -11,10 +11,16 @@ import jam from "../assets/icons/jam.svg";
 import map from "../assets/images/map.png";
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
-    <section className="overflow-y-hidden">
+    <section className="overflow-hidden">
       <Navbar blue></Navbar>
-      <div className="py-10">
+      <div className="py-20">
         <ContentTitle
           title="CONTACT"
           subTitle="Have a project in mind?"
@@ -30,7 +36,7 @@ const Contact = () => {
               onSubmit={() => alert("submit")}
               className="flex flex-wrap justify-between w-full"
             >
-              <div className="w-full md:flex justify-between px-2">
+              <div className="w-full md:flex justify-between">
                 <InputText
                   placeholder="Nama Anda"
                   name="name"
@@ -42,12 +48,10 @@ const Contact = () => {
                   medium
                 ></InputText>
               </div>
-              <div className="w-full p-0 md:p-4">
                 <InputText placeholder="Email Address" name="email"></InputText>
                 <InputText placeholder="Project" name="project"></InputText>
                 <InputText placeholder="Message" textArea></InputText>
-              </div>
-              <div className="flex ml-0 md:ml-4 mt-5 md-p2">
+              <div className="flex px-2 mt-5">
                 <Button label="Sumbit" submit></Button>
               </div>
             </form>

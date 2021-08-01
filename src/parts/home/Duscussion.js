@@ -33,7 +33,7 @@ const Discussion = () => {
               onSubmit={() => alert("submit")}
               className="flex flex-wrap justify-between w-full"
             >
-              <div className="w-full md:flex flex-wrap justify-between">
+              <div className="w-full flex flex-wrap justify-between">
                 <InputText placeholder="Name" name="name" small></InputText>
                 <InputText
                   placeholder="Company Name"
@@ -44,7 +44,7 @@ const Discussion = () => {
               <InputText placeholder="Email Address" name="email"></InputText>
               <InputText placeholder="Project" name="project"></InputText>
               <InputText placeholder="Message" textArea></InputText>
-              <div className="flex ml-auto mt-5">
+              <div className="flex ml-auto mt-5 px-2">
                 <Button label="Sumbit" submit></Button>
               </div>
             </form>

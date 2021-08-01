@@ -1,7 +1,4 @@
 import React from "react";
-
-import travo from "../../assets/images/travo.png";
-import carbon from "../../assets/images/carbon.png";
 import Button from "../../elements/Button";
 
 const ProductApp = ({ genap, data }) => {

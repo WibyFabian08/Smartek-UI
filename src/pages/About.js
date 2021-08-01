@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ContentTitle from "../elements/ContentTitle";
 import Navbar from "../elements/Navbar";
 
@@ -9,6 +9,12 @@ import Footer from "../parts/Footer";
 import Download from "../parts/about/Download";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <section className="relative overflow-x-hidden">
       <img
@@ -18,7 +24,7 @@ const About = () => {
         alt=""
       />
       <Navbar blue></Navbar>
-      <div className="container mx-auto px-5 md:px-20  md:py-20">
+      <div className="container mx-auto px-5 md:px-20 py-20">
         <ContentTitle title="ABOUT US"></ContentTitle>
         <AboutHero></AboutHero>
       </div>

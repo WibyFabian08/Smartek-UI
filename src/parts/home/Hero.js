@@ -19,9 +19,9 @@ const Hero = () => {
     >
       <div className="image-cover absolute inset-0 z-10"></div>
       <div className="absolute z-20 top-0 right-0 left-0 h-full">
-        <div className="container px-0 md:px-20 mx-auto flex flex-col justify-between h-full">
+        <div className="container px-5 md:px-20 mx-auto flex flex-col justify-between h-full">
           <Navbar></Navbar>
-          <div className="text-left px-5 md:px-0">
+          <div className="text-left">
             <p className="text-white mb-6">SMARTEK SISTEM</p>
             <h2 className="text-white text-5xl md:text-6xl">
               Expresses Enthusiasm <br /> for{" "}

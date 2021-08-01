@@ -18,11 +18,14 @@ const AboutHero = () => {
         </p>
       </div>
       <div className="w-full md:w-1/2">
-        <div style={{ height: 288 }} className="relative hidden md:block">
-          <div className="border-solid border-2 z-10 border-gray-400 absolute top-0 w-full h-full"></div>
+        <div
+          style={{ height: 288, width: 472 }}
+          className="relative hidden md:block"
+        >
+          <div className="border-solid border-2 z-10 border-gray-400 w-full h-full"></div>
           <img
             src={about}
-            className="absolute -left-10 -bottom-10 z-20 w-full h-full object-cover"
+            className="absolute -left-5 -bottom-5 z-20 w-full h-full object-cover"
             alt="about pict"
           />
         </div>

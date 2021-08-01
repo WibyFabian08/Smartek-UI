@@ -6,7 +6,7 @@ const NavLink = ({ label, path, button, getNavlink }) => {
     return (
       <Link
         to={path}
-        className="mx-8 text-white bg-blue-500 hover:bg-blue-400 transition-all duration-200 px-6 py-2 rounded-full"
+        className="mx-6 lg:mx-8 text-white bg-blue-500 hover:bg-blue-400 transition-all duration-200 px-6 py-2 rounded-full"
       >
         {label}
       </Link>
@@ -15,7 +15,7 @@ const NavLink = ({ label, path, button, getNavlink }) => {
   return (
     <Link
       to={path}
-      className={["mx-8 text-white hover:underline", getNavlink(path)].join(
+      className={["mx-6 lg:mx-8 text-white hover:underline", getNavlink(path)].join(
         " "
       )}
     >

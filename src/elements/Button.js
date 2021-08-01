@@ -5,7 +5,7 @@ const Button = ({ label, submit, download, badge }) => {
     return (
       <button
         className="px-6 py-2 rounded-full"
-        style={{ color: "#2EA0DE", backgroundColor: "#D3EBF8" }}
+        style={{ color: "#2EA0DE", backgroundColor: "#D3EBF8", cursor: 'unset' }}
       >
         {label}
       </button>

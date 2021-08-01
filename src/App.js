@@ -7,6 +7,7 @@ import About from "./pages/About";
 import StudyCase from "./pages/StudyCase";
 import Outsourcing from "./pages/Outsourcing";
 import Contact from "./pages/Contact";
+import Career from "./pages/Career";
 
 const history = createBrowserHistory({
   basename: process.env.PUBLIC_URL,
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/study-case" component={StudyCase}></Route>
           <Route exact path="/outsourcing" component={Outsourcing}></Route>
           <Route exact path="/contact" component={Contact}></Route>
+          <Route exact path="/career" component={Career}></Route>
         </Switch>
       </Router>
     </div>
