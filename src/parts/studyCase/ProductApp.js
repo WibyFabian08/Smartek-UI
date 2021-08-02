@@ -15,7 +15,7 @@ const ProductApp = ({ genap, data }) => {
           </div>
         </div>
         <div className="w-full md:w-1/2 flex justify-center items-center">
-          <img src={data.image} className="object-cover w-full h-3/4" alt="travo" />
+          <img src={data.image} className="object-cover w-full" alt="travo" />
         </div>
       </div>
     );
@@ -26,7 +26,7 @@ const ProductApp = ({ genap, data }) => {
         className="w-full md:w-1/2 flex justify-center items-center"
         style={{ backgroundColor: "#EFEFEF" }}
       >
-        <img src={data.image} className="object-cover w-full h-3/4" alt="travo" />
+        <img src={data.image} className="object-cover w-full" alt="pic" />
       </div>
       <div className="w-full md:w-1/2">
         <div className="h-full flex flex-col p-10 justify-center">

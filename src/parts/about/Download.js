@@ -39,12 +39,10 @@ const Download = () => {
                   medium
                 ></InputText>
               </div>
-              <div className="w-full p-0 md:p-2">
-                <InputText
-                  placeholder="Nama Perusahaan"
-                  name="company"
-                ></InputText>
-              </div>
+              <InputText
+                placeholder="Nama Perusahaan"
+                name="company"
+              ></InputText>
               <div className="flex ml-auto mt-5 px-2">
                 <Button label="Download" download></Button>
               </div>
